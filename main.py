@@ -1,6 +1,6 @@
 from tkinter import *
 from pytube import YouTube
-from PIL import ImageTk, Image
+
 
 # Tela principal
 master = Tk() # inicia a instancia do TKinter
