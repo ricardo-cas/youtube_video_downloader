@@ -21,9 +21,12 @@ Label(master, text="Baixar Vídeos do Youtube", fg="red", font=("Calibri",15)).g
 
 Label(master, text="Cole o link do vídeo no campo abaixo para baixar:", font=("Calibri",12)).grid(sticky=N,pady=15,row=1)
 
+# notificação se o vídeo foi baixado ou não
+notificacao = Label(master, font=("Calibri",12))
+notificacao.grid(sticky=N, pady=1, row=4)
 
-
-
+#  Campo de entrada de Dados
+Entry(master, width=50).grid(sticky=N, row=2)
 master.mainloop() # obrigatório para a execução do programa
 
 
