@@ -25,10 +25,54 @@ Label(master, text="Cole o link do vídeo no campo abaixo para baixar:", font=("
 notificacao = Label(master, font=("Calibri",12))
 notificacao.grid(sticky=N, pady=1, row=4)
 
+# Variável
+url = StringVar()
+
 #  Campo de entrada de Dados
-Entry(master, width=50).grid(sticky=N, row=2)
+Entry(master, width=50,textvariable=url).grid(sticky=N, row=2)
+
+# Botões
+Button(master, text="Baixar Vídeo", font=("Calibri",12)).grid(sticky=N,pady=15,row=3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 master.mainloop() # obrigatório para a execução do programa
-
-
-
-# print('Hello World')
