@@ -13,7 +13,7 @@ master.iconbitmap('.\icone.ico') ## Definindo o ícone do aplicativo
 
 Label(master, text="Download Converter Youtube", fg="red", font=("Calibri",15)).grid(sticky=N,padx=100,row=0)
 
-Label(master, text="Cole o link do vídeo no campo abaixo para baixar:", fg="blue", font=("Calibri",15)).grid(sticky=N,pady=15,row=1)
+Label(master, text="Cole o link do vídeo no campo abaixo para baixar:", fg="blue", font=("Calibri",12)).grid(sticky=N,pady=15,row=1)
 
 
 
