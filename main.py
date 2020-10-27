@@ -16,7 +16,7 @@ def download():
 
     except Exception as e:
         print(e)
-        # notificacao.config(fg="red", text= "Vídeo não baixado")
+        # notificacao.config(fg="red", text= "Vídeo não baixado") --> validar
         
 
 
